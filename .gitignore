@@ -1,0 +1,17 @@
+# Secret API key - never upload
+.env
+
+# Raw YouTube API data is NOT published: the YouTube API Developer Policies forbid
+# redistributing API data and require deleting/refreshing stored data after 30 days.
+# The notebook's saved outputs contain the full analysis.
+data/
+
+# Python / Jupyter / editor clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+# Only needed if you want to RE-RUN the notebook (its saved outputs can be read without running anything).
+# PySpark also needs Java 17 or 21 installed (https://adoptium.net).
+jupyter
+pandas>=2.0
+numpy
+matplotlib
+scipy
+pyarrow
+vaderSentiment>=3.3.2
+pyspark>=4.0
